@@ -5,7 +5,7 @@
 # but it should mostly work with any i3+Xfce environment.
 #
 # If you're not using i3 as the window manager for Xfce, 
-# then it's likely you'll need to adjustment some of the Xfce-specific elements.
+# then it's likely you'll need to adjust some of the Xfce-specific elements.
 
 # This was modified from my QubesOS config, so there are some irrelevent
 # comments that need to be cleaned up.
