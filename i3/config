@@ -1,18 +1,16 @@
 # i3 config by @andyleitermann
 
-# Last updated 2024/11/06
-# This config was written for a very specific OS configuration:
-# 1. For QubesOS (4.2.3)
-# 2. Using the default QubesOS Xfce desktop environment
-# 3. But replacing Xfwm with i3wm as the window manager component. 
+# Last updated 2024/11/18
+# This config was written for a NixOS installation
+# but it should mostly work with any i3+Xfce environment.
 #
-# So if you're not using i3 as the window manager for Xfce on QubesOS, 
-# then it is likely to need adjustments for it to work correctly on your system.
+# If you're not using i3 as the window manager for Xfce, 
+# then it's likely you'll need to adjustment some of the Xfce-specific elements.
 
-# This file should live in dom0 in the following path: ~/.config/i3/config
+# This was modified from my QubesOS config, so there are some irrelevent
+# comments that need to be cleaned up.
 
-# I'll make some additional scripts that I wrote to extend this configuration
-# avaialble in this repo as well. 
+# This file should live in the following path: ~/.config/i3/config
 
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
@@ -265,6 +263,8 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# i3bar is commented out in favor of Xfce menu
+# 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 #bar {
