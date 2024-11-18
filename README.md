@@ -1,1 +1,1 @@
-# nixos
+# @andyleitermann's NixOS Configuration
